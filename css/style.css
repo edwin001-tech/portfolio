@@ -75,3 +75,77 @@ body {
     font-weight: 400;
     color: #deaa86
 }
+
+.about-me {
+    display: flex;
+    background-color: #ddd;
+}
+
+.about-me-content {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+}
+
+.about-me-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.sub-heading {
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    color: #b85d1c;
+    margin-bottom: 2rem;
+}
+
+.about-me-paragraph {
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.small-underline {
+    width: 9rem;
+    height: .1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #b85d1c;
+}
+
+.big-underline {
+    width: 20rem;
+    height: .1rem;
+    margin: auto;
+    background-color: #b85d1c;
+}
+
+.image {
+    display: flex;
+    position: relative;
+    width: 35rem;
+    margin-top: 4rem;
+    padding: 3rem;
+    border-radius: 50%;
+    border-style: solid;
+    background: url(../img/edwin.jpeg) center no-repeat;
+    background-size: cover;
+    transition: transform 3s;
+    
+}
+
+.image:hover {
+    transform: rotateZ(360deg);
+
+}
+
+
