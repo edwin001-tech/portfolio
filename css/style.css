@@ -216,4 +216,103 @@ body {
     .skills__tools {
       margin-right: 4.5rem; } }
 
+      .projects__heading {
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 3rem; }
+        @media only screen and (max-width: 56.25em) {
+          .projects__heading {
+            padding-top: 4rem; } 
+          }
+.projects__container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .projects__container {
+      margin-top: 3rem; } }
+.projects__card {
+  max-width: 35rem;
+  border-radius: 1.5rem;
+  margin-top: 4rem;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 -0.5rem 10px rgba(0, 0, 0, 0.1); }
+  .projects__img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    transform: scale(1);
+    overflow: hidden;
+    transition: all 0.45s ease-in-out; }                
+  .projects {
+      margin-left: 8rem;
+  }
 
+  .projects_link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center
+  }
+  
+  .projects-cards-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .project-card {
+      width: 60rem;
+      margin: 5rem;
+      background-color: #15141b;
+      box-shadow: 0 3rem 6rem rgba(0, 0, 0, .3);
+  }
+  
+  .project-img {
+      width: 100%;
+  }
+  
+  .project-card-content {
+      color: #ddd;
+      padding: 2rem;
+  }
+  
+  .project-card-heading {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 300;
+  }
+  
+  .project-card-paragraph {
+      font-size: 1.5rem;
+      color: #777;
+  }
+  
+  .project-price {
+      font-size: 5rem;
+      font-weight: 300;
+      text-align: right;
+      margin: 0;
+  }
+  
+  .project-card-btn {
+      width: 15rem;
+      padding: 1.5rem 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: #b85d1c;
+      background-color: transparent;
+      border: .1rem solid #b85d1c;
+      border-radius: 10rem;
+      outline: none;
+      cursor: pointer;
+  }
+  
+            
+      
+      
