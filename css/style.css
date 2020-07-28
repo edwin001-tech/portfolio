@@ -131,9 +131,10 @@ body {
 
 .image {
     display: flex;
-    position: relative;
-    width: 35rem;
-    margin-top: 4rem;
+    position: re;
+    width: 200px;
+    height: 200px;
+    margin-top: 10rem;
     padding: 3rem;
     border-radius: 50%;
     border-style: solid;
@@ -141,6 +142,21 @@ body {
     background-size: cover;
     transition: transform 3s;
     
+}
+
+@media (max-width: 500px){
+  .image{
+    width: 100px;
+    height: 100px;
+    margin-top: 50rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
 }
 
 .image:hover {
@@ -350,3 +366,58 @@ body {
       font-size: 1.5rem;
     }
   }
+
+  @media(max-width: 500px) {
+    
+
+    .banner {
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+
+    .about-us {
+        padding-bottom: 15rem;
+    }
+
+    .about-us-heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-us-content {
+        padding: 5rem;
+    }
+
+    .image {
+        width: 13rem;
+    }
+
+    .common-heading {
+        font-size: 2rem;
+    }
+
+    .small-underline {
+        width: 5rem;
+    }
+
+    .big-underline {
+        width: 12rem;
+    }
+
+    
+
+    
+}
