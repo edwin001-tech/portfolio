@@ -421,3 +421,19 @@ body {
 
     
 }
+.footer__link {
+  color: var(--color-grey-light-1); }
+  @media only screen and (max-width: 500px) {
+    .footer__link {
+      font-size: 3rem !important; } }
+
+.footer__icons {
+  margin-right: 3rem; }
+
+.footer__description {
+  display: block;
+  margin-top: 2rem;
+  font-size: 2rem; }
+  @media only screen and (max-width: 500px) {
+    .footer__description {
+      font-size: 1.5rem; } }
