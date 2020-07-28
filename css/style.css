@@ -2,6 +2,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -264,9 +265,6 @@ body {
     transform: scale(1);
     overflow: hidden;
     transition: all 0.45s ease-in-out; }                
-  .projects {
-      margin-left: 8rem;
-  }
 
   .projects_link {
   font-size: 1.5rem;
