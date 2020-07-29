@@ -21,9 +21,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 10;
     
 
 }
+
 
 .Header a {
     text-decoration: none;
@@ -306,12 +308,6 @@ body {
       color: #777;
   }
   
-  .project-price {
-      font-size: 5rem;
-      font-weight: 300;
-      text-align: right;
-      margin: 0;
-  }
   
   .project-card-btn {
       width: 15rem;
@@ -326,10 +322,37 @@ body {
       outline: none;
       cursor: pointer;
   }
+  .project-btn-wrapper {
+    text-align: center;
+}
+
+.project-btn {
+    width: 20rem;
+    padding: 1.5rem 1rem;
+    margin: 4rem 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #b85d1c;
+    border: .2rem solid #b85d1c;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, .2);
+    transition: all .2s;
+    
+}
+.inline-button {
+  text-decoration: none;
+}
+
+.project-btn:hover {
+  color: #ddd;
+  background-color:  #b85d1c;
+}
 
   .footer {
     height: 30rem;
-    background-color: darkblue;
+    background-color: #15141b;
     margin-left: 0rem;
     
     
@@ -357,6 +380,7 @@ body {
 
 .footer__description {
   display: block;
+  color: goldenrod;
   margin-top: 2rem;
   font-size: 2rem; }
   @media only screen and (max-width: 25em) {
