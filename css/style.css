@@ -77,7 +77,8 @@ body {
 .banner-paragraph {
     font-size: 3.5rem;
     font-weight: 400;
-    color: #deaa86
+    color: #deaa86;
+    text-align: center;
 }
 
 .about-me {
