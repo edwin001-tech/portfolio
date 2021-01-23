@@ -398,6 +398,14 @@ body {
         margin-top: -10rem;
     }
 
+    .about-me {
+      text-align: center;
+
+    }
+    .Header {
+      position: relative;
+    }
+
     .banner-heading {
         font-size: 3rem;
     }
@@ -451,7 +459,9 @@ body {
       font-size: 3rem !important; } }
 
 .footer__icons {
-  margin-right: 3rem; }
+  margin: 0rem;
+  justify-content: center;
+   }
 
 .footer__description {
   display: block;
@@ -459,4 +469,6 @@ body {
   font-size: 2rem; }
   @media only screen and (max-width: 500px) {
     .footer__description {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; 
+      text-align: center;}
+     }
