@@ -22,8 +22,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     
-    
-
 }
 
 
@@ -405,6 +403,18 @@ body {
     .Header {
       position: relative;
     }
+
+    .Header a{
+      font-size: 1.7rem;
+      padding: 0.5rem;
+    }
+
+    .Header a.logo {
+      font-size: 3rem;
+      font-weight: 300;
+      
+  }
+  
 
     .banner-heading {
         font-size: 3rem;
